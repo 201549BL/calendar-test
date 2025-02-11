@@ -27,5 +27,5 @@ export default function CalendarBodyWeek() {
         </div>
       </div>
     </div>
-  )
+  );
 }

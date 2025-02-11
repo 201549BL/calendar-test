@@ -6,6 +6,7 @@ import CalendarHeaderDate from './header/date/calendar-header-date'
 import CalendarHeaderActionsMode from './header/actions/calendar-header-actions-mode'
 import CalendarHeaderActionsAdd from './header/actions/calendar-header-actions-add'
 import CalendarProvider from './calendar-provider'
+import CalendarDevtools from "./devtools/calendar-devtools";
 
 export default function Calendar({
   events,
@@ -34,6 +35,7 @@ export default function Calendar({
         </CalendarHeaderActions>
       </CalendarHeader>
       <CalendarBody />
+      <CalendarDevtools />
     </CalendarProvider>
-  )
+  );
 }

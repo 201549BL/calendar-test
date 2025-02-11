@@ -23,5 +23,5 @@ export default function CalendarBodyDayContent({ date }: { date: Date }) {
         ))}
       </div>
     </div>
-  )
+  );
 }
